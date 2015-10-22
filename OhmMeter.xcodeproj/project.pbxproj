@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		631CDF181BD876ED00B51C12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631CDF171BD876ED00B51C12 /* AppDelegate.swift */; };
+		631CDF1A1BD876ED00B51C12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631CDF191BD876ED00B51C12 /* ViewController.swift */; };
+		631CDF1D1BD876ED00B51C12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 631CDF1B1BD876ED00B51C12 /* Main.storyboard */; };
+		631CDF201BD876ED00B51C12 /* OhmMeter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 631CDF1E1BD876ED00B51C12 /* OhmMeter.xcdatamodeld */; };
+		631CDF221BD876ED00B51C12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 631CDF211BD876ED00B51C12 /* Assets.xcassets */; };
+		631CDF251BD876ED00B51C12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 631CDF231BD876ED00B51C12 /* LaunchScreen.storyboard */; };
+		631CDF301BD876ED00B51C12 /* OhmMeterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631CDF2F1BD876ED00B51C12 /* OhmMeterTests.swift */; };
+		631CDF3B1BD876ED00B51C12 /* OhmMeterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631CDF3A1BD876ED00B51C12 /* OhmMeterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		631CDF2C1BD876ED00B51C12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 631CDF0C1BD876ED00B51C12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 631CDF131BD876ED00B51C12;
+			remoteInfo = OhmMeter;
+		};
+		631CDF371BD876ED00B51C12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 631CDF0C1BD876ED00B51C12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 631CDF131BD876ED00B51C12;
+			remoteInfo = OhmMeter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		631CDF141BD876ED00B51C12 /* OhmMeter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OhmMeter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		631CDF171BD876ED00B51C12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		631CDF191BD876ED00B51C12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		631CDF1C1BD876ED00B51C12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		631CDF1F1BD876ED00B51C12 /* OhmMeter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OhmMeter.xcdatamodel; sourceTree = "<group>"; };
+		631CDF211BD876ED00B51C12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		631CDF241BD876ED00B51C12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		631CDF261BD876ED00B51C12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		631CDF2B1BD876ED00B51C12 /* OhmMeterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OhmMeterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		631CDF2F1BD876ED00B51C12 /* OhmMeterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OhmMeterTests.swift; sourceTree = "<group>"; };
+		631CDF311BD876ED00B51C12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		631CDF361BD876ED00B51C12 /* OhmMeterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OhmMeterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		631CDF3A1BD876ED00B51C12 /* OhmMeterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OhmMeterUITests.swift; sourceTree = "<group>"; };
+		631CDF3C1BD876ED00B51C12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		631CDF111BD876ED00B51C12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		631CDF281BD876ED00B51C12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		631CDF331BD876ED00B51C12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		631CDF0B1BD876ED00B51C12 = {
+			isa = PBXGroup;
+			children = (
+				631CDF161BD876ED00B51C12 /* OhmMeter */,
+				631CDF2E1BD876ED00B51C12 /* OhmMeterTests */,
+				631CDF391BD876ED00B51C12 /* OhmMeterUITests */,
+				631CDF151BD876ED00B51C12 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		631CDF151BD876ED00B51C12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				631CDF141BD876ED00B51C12 /* OhmMeter.app */,
+				631CDF2B1BD876ED00B51C12 /* OhmMeterTests.xctest */,
+				631CDF361BD876ED00B51C12 /* OhmMeterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		631CDF161BD876ED00B51C12 /* OhmMeter */ = {
+			isa = PBXGroup;
+			children = (
+				631CDF171BD876ED00B51C12 /* AppDelegate.swift */,
+				631CDF191BD876ED00B51C12 /* ViewController.swift */,
+				631CDF1B1BD876ED00B51C12 /* Main.storyboard */,
+				631CDF211BD876ED00B51C12 /* Assets.xcassets */,
+				631CDF231BD876ED00B51C12 /* LaunchScreen.storyboard */,
+				631CDF261BD876ED00B51C12 /* Info.plist */,
+				631CDF1E1BD876ED00B51C12 /* OhmMeter.xcdatamodeld */,
+			);
+			path = OhmMeter;
+			sourceTree = "<group>";
+		};
+		631CDF2E1BD876ED00B51C12 /* OhmMeterTests */ = {
+			isa = PBXGroup;
+			children = (
+				631CDF2F1BD876ED00B51C12 /* OhmMeterTests.swift */,
+				631CDF311BD876ED00B51C12 /* Info.plist */,
+			);
+			path = OhmMeterTests;
+			sourceTree = "<group>";
+		};
+		631CDF391BD876ED00B51C12 /* OhmMeterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				631CDF3A1BD876ED00B51C12 /* OhmMeterUITests.swift */,
+				631CDF3C1BD876ED00B51C12 /* Info.plist */,
+			);
+			path = OhmMeterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		631CDF131BD876ED00B51C12 /* OhmMeter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 631CDF3F1BD876ED00B51C12 /* Build configuration list for PBXNativeTarget "OhmMeter" */;
+			buildPhases = (
+				631CDF101BD876ED00B51C12 /* Sources */,
+				631CDF111BD876ED00B51C12 /* Frameworks */,
+				631CDF121BD876ED00B51C12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OhmMeter;
+			productName = OhmMeter;
+			productReference = 631CDF141BD876ED00B51C12 /* OhmMeter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		631CDF2A1BD876ED00B51C12 /* OhmMeterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 631CDF421BD876ED00B51C12 /* Build configuration list for PBXNativeTarget "OhmMeterTests" */;
+			buildPhases = (
+				631CDF271BD876ED00B51C12 /* Sources */,
+				631CDF281BD876ED00B51C12 /* Frameworks */,
+				631CDF291BD876ED00B51C12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				631CDF2D1BD876ED00B51C12 /* PBXTargetDependency */,
+			);
+			name = OhmMeterTests;
+			productName = OhmMeterTests;
+			productReference = 631CDF2B1BD876ED00B51C12 /* OhmMeterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		631CDF351BD876ED00B51C12 /* OhmMeterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 631CDF451BD876ED00B51C12 /* Build configuration list for PBXNativeTarget "OhmMeterUITests" */;
+			buildPhases = (
+				631CDF321BD876ED00B51C12 /* Sources */,
+				631CDF331BD876ED00B51C12 /* Frameworks */,
+				631CDF341BD876ED00B51C12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				631CDF381BD876ED00B51C12 /* PBXTargetDependency */,
+			);
+			name = OhmMeterUITests;
+			productName = OhmMeterUITests;
+			productReference = 631CDF361BD876ED00B51C12 /* OhmMeterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		631CDF0C1BD876ED00B51C12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = EEEnthusiast;
+				TargetAttributes = {
+					631CDF131BD876ED00B51C12 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					631CDF2A1BD876ED00B51C12 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 631CDF131BD876ED00B51C12;
+					};
+					631CDF351BD876ED00B51C12 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 631CDF131BD876ED00B51C12;
+					};
+				};
+			};
+			buildConfigurationList = 631CDF0F1BD876ED00B51C12 /* Build configuration list for PBXProject "OhmMeter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 631CDF0B1BD876ED00B51C12;
+			productRefGroup = 631CDF151BD876ED00B51C12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				631CDF131BD876ED00B51C12 /* OhmMeter */,
+				631CDF2A1BD876ED00B51C12 /* OhmMeterTests */,
+				631CDF351BD876ED00B51C12 /* OhmMeterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		631CDF121BD876ED00B51C12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				631CDF251BD876ED00B51C12 /* LaunchScreen.storyboard in Resources */,
+				631CDF221BD876ED00B51C12 /* Assets.xcassets in Resources */,
+				631CDF1D1BD876ED00B51C12 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		631CDF291BD876ED00B51C12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		631CDF341BD876ED00B51C12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		631CDF101BD876ED00B51C12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				631CDF201BD876ED00B51C12 /* OhmMeter.xcdatamodeld in Sources */,
+				631CDF1A1BD876ED00B51C12 /* ViewController.swift in Sources */,
+				631CDF181BD876ED00B51C12 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		631CDF271BD876ED00B51C12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				631CDF301BD876ED00B51C12 /* OhmMeterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		631CDF321BD876ED00B51C12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				631CDF3B1BD876ED00B51C12 /* OhmMeterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		631CDF2D1BD876ED00B51C12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 631CDF131BD876ED00B51C12 /* OhmMeter */;
+			targetProxy = 631CDF2C1BD876ED00B51C12 /* PBXContainerItemProxy */;
+		};
+		631CDF381BD876ED00B51C12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 631CDF131BD876ED00B51C12 /* OhmMeter */;
+			targetProxy = 631CDF371BD876ED00B51C12 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		631CDF1B1BD876ED00B51C12 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				631CDF1C1BD876ED00B51C12 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		631CDF231BD876ED00B51C12 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				631CDF241BD876ED00B51C12 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		631CDF3D1BD876ED00B51C12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		631CDF3E1BD876ED00B51C12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		631CDF401BD876ED00B51C12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OhmMeter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eeenthusiast.OhmMeter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		631CDF411BD876ED00B51C12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OhmMeter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eeenthusiast.OhmMeter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		631CDF431BD876ED00B51C12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OhmMeterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eeenthusiast.OhmMeterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OhmMeter.app/OhmMeter";
+			};
+			name = Debug;
+		};
+		631CDF441BD876ED00B51C12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OhmMeterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eeenthusiast.OhmMeterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OhmMeter.app/OhmMeter";
+			};
+			name = Release;
+		};
+		631CDF461BD876ED00B51C12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OhmMeterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eeenthusiast.OhmMeterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OhmMeter;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		631CDF471BD876ED00B51C12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OhmMeterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eeenthusiast.OhmMeterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OhmMeter;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		631CDF0F1BD876ED00B51C12 /* Build configuration list for PBXProject "OhmMeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				631CDF3D1BD876ED00B51C12 /* Debug */,
+				631CDF3E1BD876ED00B51C12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		631CDF3F1BD876ED00B51C12 /* Build configuration list for PBXNativeTarget "OhmMeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				631CDF401BD876ED00B51C12 /* Debug */,
+				631CDF411BD876ED00B51C12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		631CDF421BD876ED00B51C12 /* Build configuration list for PBXNativeTarget "OhmMeterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				631CDF431BD876ED00B51C12 /* Debug */,
+				631CDF441BD876ED00B51C12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		631CDF451BD876ED00B51C12 /* Build configuration list for PBXNativeTarget "OhmMeterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				631CDF461BD876ED00B51C12 /* Debug */,
+				631CDF471BD876ED00B51C12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		631CDF1E1BD876ED00B51C12 /* OhmMeter.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				631CDF1F1BD876ED00B51C12 /* OhmMeter.xcdatamodel */,
+			);
+			currentVersion = 631CDF1F1BD876ED00B51C12 /* OhmMeter.xcdatamodel */;
+			path = OhmMeter.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 631CDF0C1BD876ED00B51C12 /* Project object */;
+}
