@@ -9,10 +9,15 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var band1: UIImageView!
+    @IBOutlet weak var band2: UIImageView!
+    @IBOutlet weak var band3: UIImageView!
+    @IBOutlet weak var band4: UIImageView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        band1.backgroundColor = UIColor.blueColor()
+
     }
 
     override func didReceiveMemoryWarning() {

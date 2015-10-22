@@ -15,6 +15,7 @@
 		631CDF251BD876ED00B51C12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 631CDF231BD876ED00B51C12 /* LaunchScreen.storyboard */; };
 		631CDF301BD876ED00B51C12 /* OhmMeterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631CDF2F1BD876ED00B51C12 /* OhmMeterTests.swift */; };
 		631CDF3B1BD876ED00B51C12 /* OhmMeterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631CDF3A1BD876ED00B51C12 /* OhmMeterUITests.swift */; };
+		631CDF491BD878D200B51C12 /* resistor.gif in Resources */ = {isa = PBXBuildFile; fileRef = 631CDF481BD878D200B51C12 /* resistor.gif */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		631CDF361BD876ED00B51C12 /* OhmMeterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OhmMeterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		631CDF3A1BD876ED00B51C12 /* OhmMeterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OhmMeterUITests.swift; sourceTree = "<group>"; };
 		631CDF3C1BD876ED00B51C12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		631CDF481BD878D200B51C12 /* resistor.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = resistor.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				631CDF171BD876ED00B51C12 /* AppDelegate.swift */,
 				631CDF191BD876ED00B51C12 /* ViewController.swift */,
 				631CDF1B1BD876ED00B51C12 /* Main.storyboard */,
+				631CDF481BD878D200B51C12 /* resistor.gif */,
 				631CDF211BD876ED00B51C12 /* Assets.xcassets */,
 				631CDF231BD876ED00B51C12 /* LaunchScreen.storyboard */,
 				631CDF261BD876ED00B51C12 /* Info.plist */,
@@ -234,6 +237,7 @@
 				631CDF251BD876ED00B51C12 /* LaunchScreen.storyboard in Resources */,
 				631CDF221BD876ED00B51C12 /* Assets.xcassets in Resources */,
 				631CDF1D1BD876ED00B51C12 /* Main.storyboard in Resources */,
+				631CDF491BD878D200B51C12 /* resistor.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +408,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.eeenthusiast.OhmMeter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -415,6 +420,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.eeenthusiast.OhmMeter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
