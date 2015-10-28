@@ -16,6 +16,7 @@
 		631CDF301BD876ED00B51C12 /* OhmMeterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631CDF2F1BD876ED00B51C12 /* OhmMeterTests.swift */; };
 		631CDF3B1BD876ED00B51C12 /* OhmMeterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631CDF3A1BD876ED00B51C12 /* OhmMeterUITests.swift */; };
 		631CDF491BD878D200B51C12 /* resistor.gif in Resources */ = {isa = PBXBuildFile; fileRef = 631CDF481BD878D200B51C12 /* resistor.gif */; settings = {ASSET_TAGS = (); }; };
+		639564291BE06CD900235764 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 639564281BE06CD900235764 /* background.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		631CDF3A1BD876ED00B51C12 /* OhmMeterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OhmMeterUITests.swift; sourceTree = "<group>"; };
 		631CDF3C1BD876ED00B51C12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		631CDF481BD878D200B51C12 /* resistor.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = resistor.gif; sourceTree = "<group>"; };
+		639564281BE06CD900235764 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		631CDF161BD876ED00B51C12 /* OhmMeter */ = {
 			isa = PBXGroup;
 			children = (
+				639564281BE06CD900235764 /* background.png */,
 				631CDF171BD876ED00B51C12 /* AppDelegate.swift */,
 				631CDF191BD876ED00B51C12 /* ViewController.swift */,
 				631CDF1B1BD876ED00B51C12 /* Main.storyboard */,
@@ -235,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				631CDF251BD876ED00B51C12 /* LaunchScreen.storyboard in Resources */,
+				639564291BE06CD900235764 /* background.png in Resources */,
 				631CDF221BD876ED00B51C12 /* Assets.xcassets in Resources */,
 				631CDF1D1BD876ED00B51C12 /* Main.storyboard in Resources */,
 				631CDF491BD878D200B51C12 /* resistor.gif in Resources */,
@@ -491,6 +495,7 @@
 				631CDF411BD876ED00B51C12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		631CDF421BD876ED00B51C12 /* Build configuration list for PBXNativeTarget "OhmMeterTests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +504,7 @@
 				631CDF441BD876ED00B51C12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		631CDF451BD876ED00B51C12 /* Build configuration list for PBXNativeTarget "OhmMeterUITests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +513,7 @@
 				631CDF471BD876ED00B51C12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

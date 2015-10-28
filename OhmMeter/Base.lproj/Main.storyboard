@@ -68,6 +68,9 @@
                                     <outlet property="dataSource" destination="BYZ-38-t0r" id="mjJ-PV-LqY"/>
                                 </connections>
                             </pickerView>
+                            <imageView userInteractionEnabled="NO" alpha="0.10000000000000001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="background.png" translatesAutoresizingMaskIntoConstraints="NO" id="J9n-xL-hnF">
+                                <rect key="frame" x="-136" y="-53" width="646" height="760"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -76,9 +79,13 @@
                             <constraint firstItem="Phy-yw-xTZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6vH-Hr-h5I"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Evw-P0-Bzc" secondAttribute="trailing" id="JcX-yc-NDs"/>
                             <constraint firstItem="Evw-P0-Bzc" firstAttribute="top" secondItem="sjm-Uv-U7W" secondAttribute="bottom" constant="8" id="Zzt-TG-Gn6"/>
+                            <constraint firstItem="J9n-xL-hnF" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-73" id="gJy-lF-0bx"/>
                             <constraint firstItem="sjm-Uv-U7W" firstAttribute="top" secondItem="Phy-yw-xTZ" secondAttribute="bottom" constant="8" id="h4n-Qj-1ld"/>
                             <constraint firstItem="Phy-yw-xTZ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="jNb-gw-n7T"/>
+                            <constraint firstItem="J9n-xL-hnF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-156" id="rzd-hW-b2J"/>
                             <constraint firstItem="sjm-Uv-U7W" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="saZ-9L-NLV"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="J9n-xL-hnF" secondAttribute="trailing" constant="-155" id="ssL-LA-AYU"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="J9n-xL-hnF" secondAttribute="bottom" constant="-40" id="uD9-m1-2Lw"/>
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
@@ -97,6 +104,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="background.png" width="1920" height="1200"/>
         <image name="resistor.gif" width="294" height="52"/>
     </resources>
 </document>
