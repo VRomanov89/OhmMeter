@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -25,40 +26,74 @@
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="S8D-9E-ZSb">
                                         <rect key="frame" x="123" y="30" width="12" height="52"/>
                                     </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Band 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZZe-YZ-yVa">
+                                        <rect key="frame" x="103" y="91" width="52" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Edr-EK-hTl">
+                                        <rect key="frame" x="151" y="30" width="12" height="52"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rN3-Wq-E4t">
+                                        <rect key="frame" x="242" y="31" width="12" height="52"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Band 4" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gR3-nV-vZc">
+                                        <rect key="frame" x="222" y="91" width="52" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="375" id="tro-Ce-Wm2"/>
                                 </constraints>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Select Bands" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sjm-Uv-U7W">
+                                <rect key="frame" x="0.0" y="148" width="375" height="63"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="6C1-mH-R07"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <pickerView contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Evw-P0-Bzc">
+                                <rect key="frame" x="0.0" y="219" width="375" height="216"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="mjJ-PV-LqY"/>
+                                </connections>
+                            </pickerView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rgx-th-S9b">
+                                <rect key="frame" x="179" y="59" width="12" height="52"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="Evw-P0-Bzc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="3Ww-XF-9JH"/>
+                            <constraint firstItem="Evw-P0-Bzc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4Zt-wV-8XK"/>
                             <constraint firstItem="Phy-yw-xTZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6vH-Hr-h5I"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Evw-P0-Bzc" secondAttribute="trailing" id="JcX-yc-NDs"/>
+                            <constraint firstItem="Evw-P0-Bzc" firstAttribute="top" secondItem="sjm-Uv-U7W" secondAttribute="bottom" constant="8" id="Zzt-TG-Gn6"/>
+                            <constraint firstItem="sjm-Uv-U7W" firstAttribute="top" secondItem="Phy-yw-xTZ" secondAttribute="bottom" constant="8" id="h4n-Qj-1ld"/>
                             <constraint firstItem="Phy-yw-xTZ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="jNb-gw-n7T"/>
+                            <constraint firstItem="sjm-Uv-U7W" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="saZ-9L-NLV"/>
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
-                        <outlet property="band1" destination="S8D-9E-ZSb" id="gJg-KG-3Mp"/>
+                        <outlet property="band1" destination="S8D-9E-ZSb" id="9fa-BE-mNs"/>
+                        <outlet property="band2" destination="Edr-EK-hTl" id="X5R-oh-Kz3"/>
+                        <outlet property="band3" destination="rgx-th-S9b" id="N0M-yZ-WQ8"/>
+                        <outlet property="band4" destination="rN3-Wq-E4t" id="E4U-dn-EIO"/>
+                        <outlet property="picker" destination="Evw-P0-Bzc" id="foo-A2-jH8"/>
+                        <outlet property="resistance" destination="sjm-Uv-U7W" id="vzd-jq-O3O"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="480.5" y="414.5"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="EGB-z8-EQ8">
-            <objects>
-                <viewController id="1QI-qc-rmd" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="iuW-gr-HNH">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ukU-5J-sRo" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
         </scene>
     </scenes>
     <resources>
