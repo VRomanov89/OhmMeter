@@ -35,6 +35,9 @@
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Edr-EK-hTl">
                                         <rect key="frame" x="151" y="30" width="12" height="52"/>
                                     </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rgx-th-S9b">
+                                        <rect key="frame" x="180" y="30" width="12" height="52"/>
+                                    </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rN3-Wq-E4t">
                                         <rect key="frame" x="242" y="31" width="12" height="52"/>
                                     </imageView>
@@ -65,9 +68,6 @@
                                     <outlet property="dataSource" destination="BYZ-38-t0r" id="mjJ-PV-LqY"/>
                                 </connections>
                             </pickerView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rgx-th-S9b">
-                                <rect key="frame" x="179" y="59" width="12" height="52"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
